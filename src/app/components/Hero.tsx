@@ -37,14 +37,14 @@ const Hero = ({
     { 
       id: 3, 
       image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXBW1M9LqTu25Vq4i9g4e7I7Ux6SdqbE4N0Q&s', 
-      title: 'ABC, Nepal', 
+      title: 'Tokyo, Japan', 
       subtitle: 'Neon Metropolis',
       highlight: '#4361EE'
     },
     {
       id: 4, 
       image: 'https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQ1yxr-MGCKqg-u3d0eogRaM0wSztaRDAdXBYNXHme9SudZ36bV2aXGT-95tpUVLJ1XhOBOQ-RNH2QAX8tpeqIp9Lt5ISEmiB-zy-9OQw', 
-      title: 'Tokyo, Japan', 
+      title: 'ABC, Nepal', 
       subtitle: 'Neon Metropolis',
       highlight: '#4361EE'
     },
