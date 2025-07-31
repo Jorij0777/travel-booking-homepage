@@ -175,7 +175,7 @@ const Footer = () => {
         >
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-white/60 text-sm">
-              © {new Date().getFullYear()} TRAVELEX. All rights reserved.
+              © {new Date().getFullYear()} TRIPZY. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               {['Privacy Policy', 'Terms of Service', 'Cookies'].map((item) => (
