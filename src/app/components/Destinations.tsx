@@ -93,7 +93,7 @@ const DestinationsPage = () => {
     },
     { 
       id: 6, 
-      image: '/https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8CXuogZod7Ms7-y5ZkdfRiaBdnFIaIkJv2w&s', 
+      image: 'https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqJh_09IzlRhALSMkIC3JWGseKmNlEU9Nfq3LmhLqZ2wCv4N7P7EW88Z1-baIqEjajW5WN_9oO4l-UhZybdRq2QDfZwSNBWVgJk0r-84kaFNj8skgKNT4fCdvTT5vsAEv7kzQrHwQ=w675-h390-n-k-no', 
       title: 'Maldives', 
       subtitle: 'Overwater Paradise', 
       description: 'Luxurious overwater bungalows and pristine coral reefs.',
