@@ -37,7 +37,7 @@ const Hero = ({
     { 
       id: 3, 
       image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXBW1M9LqTu25Vq4i9g4e7I7Ux6SdqbE4N0Q&s', 
-      title: 'Tokyo, Japan', 
+      title: 'ABC, Nepal', 
       subtitle: 'Neon Metropolis',
       highlight: '#4361EE'
     },
