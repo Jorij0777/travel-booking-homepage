@@ -22,7 +22,7 @@ const Hero = ({
   const destinations = [
     { 
       id: 1, 
-      image: 'https://lh3.googleusercontent.com/gps-cs-s/AC9h4nphXRZBf8M5DR14y2OcCd5Zb4ANyX_dLZMsXs12YCR3r7AXH0o1sPAdjMXyDc7g9L7Ql030y_LKUjI9Rc0WFSh9C7Tu09WywmQk_hHayxXxl160-eC_q0KFd1q2hgxYdZaLszva=w675-h390-n-k-no', 
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo2-bZOeQi3RtUg0Jzh0lMTT6v74Q36y36lw&s', 
       title: 'Bali, Indonesia', 
       subtitle: 'Tropical Paradise',
       highlight: '#FF6B6B'
@@ -37,6 +37,13 @@ const Hero = ({
     { 
       id: 3, 
       image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXBW1M9LqTu25Vq4i9g4e7I7Ux6SdqbE4N0Q&s', 
+      title: 'Tokyo, Japan', 
+      subtitle: 'Neon Metropolis',
+      highlight: '#4361EE'
+    },
+    {
+      id: 4, 
+      image: 'https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQ1yxr-MGCKqg-u3d0eogRaM0wSztaRDAdXBYNXHme9SudZ36bV2aXGT-95tpUVLJ1XhOBOQ-RNH2QAX8tpeqIp9Lt5ISEmiB-zy-9OQw', 
       title: 'Tokyo, Japan', 
       subtitle: 'Neon Metropolis',
       highlight: '#4361EE'
@@ -155,7 +162,9 @@ const Hero = ({
               
               <div className="flex items-center space-x-4 mb-10">
                 <div className="flex -space-x-3">
-                  {['/images/avatar1.jpg', '/images/avatar2.jpg', '/images/avatar3.jpg'].map((img, i) => (
+                  {['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeJEhZLOodboyrWLe9--5qgrNDQA-gYF_g-A&s',
+                   'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3VML09a36PA-XXYoYpdsmXKxgEcEy5VsrlQ&s', 
+                   'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgqNYzhnY001Rjcujz2YUQbCOdlMp0vut-hA&s'].map((img, i) => (
                     <motion.img 
                       key={i} 
                       src={img} 

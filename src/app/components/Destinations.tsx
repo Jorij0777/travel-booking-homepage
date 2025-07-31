@@ -23,7 +23,7 @@ const DestinationsPage = () => {
   const destinations = [
     { 
       id: 1, 
-      image: '/images/bali.jpg', 
+      image: 'https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRIw9_s7L6agvYj_23FbIzv6sGkGIieXQNKwxbYcWi4E-1NgY_NOezJuq-uLQkOdWpNVRsN4wBnx1hWUoUDVuViXlKWeK6tE9w1Wl03Kg', 
       title: 'Bali, Indonesia', 
       subtitle: 'Tropical Paradise', 
       description: 'Experience the perfect blend of beaches, temples, and vibrant culture in Bali.',
@@ -37,7 +37,7 @@ const DestinationsPage = () => {
     },
     { 
       id: 2, 
-      image: '@/images/paris.jpg', 
+      image: 'https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcRpKbgRvjtgFy7QI9NlXhfZpx7n6xKgM4aMajpC4ukIgCP1fXWdZMHDg2yQG57-_RXbpq0IzD0Jobnlskio1G1Lf-qFENSGKEbsIF8mCQ', 
       title: 'Paris, France', 
       subtitle: 'City of Love', 
       description: 'Explore iconic landmarks, world-class museums, and exquisite cuisine.',
@@ -51,7 +51,7 @@ const DestinationsPage = () => {
     },
     { 
       id: 3, 
-      image: '/images/tokyo.jpg', 
+      image: 'https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTrpbQKEA3dC69e8Mswv1Etb1vHxbrY8iqhdeNH9NrY4TrphfFadV_Jfyj7eaU7mDqPdO3nYd0NYfXDOr18JHdMJZ0QMkLxaX98mt70Bw', 
       title: 'Tokyo, Japan', 
       subtitle: 'Neon Metropolis', 
       description: 'Discover the perfect mix of ancient traditions and futuristic technology.',
@@ -65,7 +65,7 @@ const DestinationsPage = () => {
     },
     { 
       id: 4, 
-      image: '/images/santorini.jpg', 
+      image: 'https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSfM2PEEeP-EHsQBQrBxSnZgBKCQBZW5WlHWOU4jz0wAg7wdoHVLum9yebue61CyFXYVpZgLitkKkwT2ujsr8yp47MWerylenV58gKtbQ', 
       title: 'Santorini, Greece', 
       subtitle: 'Aegean Gem', 
       description: 'Stunning white-washed buildings and crystal blue waters await you.',
@@ -79,7 +79,7 @@ const DestinationsPage = () => {
     },
     { 
       id: 5, 
-      image: '/images/swiss.jpg', 
+      image: 'https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQMH8ZrLpNEQsqpF4dE0fcjsmARZBjMfk1ONl3sEBx2ZWwv5TRIDNDzwWDN42IEkYuSQqV4JDWoChByjdJ4fqUWAGbbEXz5Ddwd18Iirg', 
       title: 'Swiss Alps', 
       subtitle: 'Mountain Majesty', 
       description: 'Breathtaking mountain vistas and charming alpine villages.',
@@ -93,7 +93,7 @@ const DestinationsPage = () => {
     },
     { 
       id: 6, 
-      image: '/images/maldives.jpg', 
+      image: '/https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8CXuogZod7Ms7-y5ZkdfRiaBdnFIaIkJv2w&s', 
       title: 'Maldives', 
       subtitle: 'Overwater Paradise', 
       description: 'Luxurious overwater bungalows and pristine coral reefs.',
